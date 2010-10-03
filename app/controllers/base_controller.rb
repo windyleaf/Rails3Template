@@ -4,7 +4,4 @@ class BaseController < ApplicationController
   def index
   end
   
-  # action ride
-  def ride
-  end
 end
