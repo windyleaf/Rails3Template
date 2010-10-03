@@ -1,1 +1,11 @@
-test
+- content_for(:title) do
+  Hello World!
+
+- content_for(:extended_javascript) do
+  :javascript
+    $(function() {
+      alert('Hello World')
+    })
+
+base index view
+
